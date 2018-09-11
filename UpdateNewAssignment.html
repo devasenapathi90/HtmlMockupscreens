@@ -1,0 +1,230 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="ZF UX Table Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>ZF UX Table Template</title>
+
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <link rel="icon" href="favicon.png" />
+
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/bootstrap-table.css">
+
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/bootstrap-plugins.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/bootstrap-table.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy" data-offset="20">
+    <!--[if lt IE 10]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+your browser</a> to improve your experience.</p>
+<![endif]-->
+
+    <div class="header">
+        <header>
+            <div class="container">
+
+                <div class="logo">
+                    <img alt="Logo" src="images/zf-logo.svg">
+                </div>
+
+                
+
+                <div class="siteLabel">
+                    <a class="undecorated-link" href="index.html">
+                        <span class="siteLabel-bold"></span> Update Template 001
+                    </a>
+                </div>
+
+                <nav class="navbar navbar-default">
+
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <div class="small-trademark-div">
+                                <img class="img-responsive small-trademark-img" alt="Logo" src="images/zf-logo.svg">
+                            </div>
+                            <div class="smallHeaderDiv">
+                                <div class="smallHeaderTitle">
+                                    <a class="undecorated-link" href="index.html">
+                                        <span class="siteLabel-bold"></span>
+                                    </a>
+                                </div>
+                                <button type="button" class="navbar-toggle collapsed" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <i id="menu-burger-icon" class="material-icons icon-text-inline">menu</i>
+                                    <i id="menu-close-icon" class="material-icons icon-text-inline">close</i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Navigation bar, not visible at smartphone size -->
+                        <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navigation--primary">
+                           <li class=" dropdown">
+                              <a  href="index.html">Start</a>
+                              <!-- Level 2 submenu items in drop down menu -->
+                           </li>
+			   <li class="active dropdown">
+                              <a  href="">Manage Templates</a>
+                              <!-- Level 2 submenu items in drop down menu -->
+                              <ul class="dropdown-menu dropdown-main navigation--secondary">
+                                 <li class="active">
+                                    <a href="TemplateList.html"><span>Template List</span><i class="material-icons md-30 dropdown-menu-arrow">chevron_right</i></a>
+                                 </li>
+                                 <li class="">
+                                    <a href="NewTemplate.html"><span>New Template</span><i class="material-icons md-30 dropdown-menu-arrow">chevron_right</i></a>
+                                 </li>
+                                 
+                              </ul>
+                           </li>
+                           <li class="active dropdown">
+                              <a  href="TargetValueAssignmentList.html">Target Values Assignment</a>
+                              <!-- Level 2 submenu items in drop down menu -->
+                              <ul class="dropdown-menu dropdown-main navigation--secondary">
+                                 <li class="active">
+                                    <a href="TargetValueAssignmentList.html"><span>Assignment List</span><i class="material-icons md-30 dropdown-menu-arrow">chevron_right</i></a>
+                                 </li>
+                                 <li class="">
+                                    <a href="example-area1-page2.html"><span>New Assignment</span><i class="material-icons md-30 dropdown-menu-arrow">chevron_right</i></a>
+                                 </li>
+                                 
+                              </ul>
+                           </li>
+                           
+
+                        </ul>
+                     </div>
+
+                        <!-- Burger Menu -->
+                        <div id="burger-menu" class="navbar-collapse collapse">
+                            <ul class="burger-menu-list">
+                                <li class="active">
+                                    <a href="index.html">
+                                        
+                                        <i class="material-icons md-26 md-blue">chevron_right</i>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="index.html">
+                                        <span>Navigation 1</span>
+                                        <i class="material-icons md-26 md-blue">chevron_right</i>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="index.html">
+                                        <span>Navigation 2</span>
+                                        <i class="material-icons md-26 md-blue">chevron_right</i>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="index.html">
+                                        <span>Navigation 3</span>
+                                        <i class="material-icons md-26 md-blue">chevron_right</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+    </div>
+
+    <div class="container container--main">
+
+        <div id="content" class="container-fluid">
+
+            <p></p>
+
+            <!-- The table toolbar with buttons -->
+
+            
+
+     
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="input1" class="col-sm-2 control-label">Resource ID</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="input1" placeholder="Your Resource ID">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="input5" class="col-sm-2 control-label">Parameter</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="input5" rows="4" placeholder="Your Parameter">
+                        </textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input5" class="col-sm-2 control-label">Template ID</label>
+                    <div class="col-sm-5">
+
+                        <select class="form-control">
+                            <option value="select">--Select Template ID--</option>
+                            <option value="TemplateId1">TemplateId 1</option>
+                            <option value="TemplateId2">TemplateId 2</option>
+                            <option value="TemplateId3">TemplateId 3</option>
+                            <option value="TemplateId4">TemplateId 4</option>
+                            <option value="TemplateId5">TemplateId 5</option>
+                            <option value="TemplateId6">TemplateId 6</option>
+                            <option value="TemplateId7">TemplateId 7</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input1" class="col-sm-2 control-label">Template Name</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="input1" placeholder="Template Name" disabled>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button id="submit-button" type="submit" class="btn btn-default">
+                            <i class="material-icons icon-inline">done</i> Submit
+                        </button>
+                        <button id="back-button" type="submit" class="btn btn-default">
+                            <i class="material-icons icon-inline">chevron_left</i> Back
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+    
+        <footer>
+            <div class="container-fluid footer">
+                <div class="row">
+                    <div class="col-sm-8 footer-copyright">
+                        <a href="http://www.zf-world.com" target="_blank">� ZF Friedrichshafen AG</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+
+    </div>
+
+    <script src="scripts/app1.js"></script>
+
+</body>
+
+</html>
+
+
+    
